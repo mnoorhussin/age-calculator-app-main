@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -15,13 +14,46 @@
     <title>Frontend Mentor | Age calculator app</title>
   </head>
   <body>
-    Day DD Month MM Year YYYY -- years -- months -- days
+    <main>
+      <div class="container">
+        <div class="form">
+          <div class="form-group">
+            <label class="day-label" for="day">DAY</label>
+            <input type="text" id="day" name="day" placeholder="DD" />
+            <span class="error day-error"></span>
+          </div>
+          <div class="form-group">
+            <label class="month-label" for="day">MONTH </label>
+            <input type="text" id="month" name="month" placeholder="MM" />
+            <span class="error month-error"></span>
+          </div>
+          <div class="form-group">
+            <label class="year-label" for="day">YEAR </label>
+            <input type="text" id="year" name="year" placeholder="YYYY" />
+            <span class="error year-error"></span>
+          </div>
+        </div>
 
-    <div class="attribution">
+        <div class="btn">
+          <hr class="solid" />
+          <img src="./assets/images/icon-arrow.svg" alt="submit button" />
+        </div>
+
+        <div class="result">
+          <h1><span class="year-result">- -</span>years</h1>
+          <h1><span class="month-result">- -</span>months</h1>
+          <h1><span class="day-result">- -</span> days</h1>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a href="https://www.muste.io" target="_blank">Mustafa</a>.
+    </footer>
+
+    <script src="./assets/js/App.js"></script>
   </body>
 </html>
