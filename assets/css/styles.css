@@ -192,11 +192,13 @@ img {
 
 }
 
-
+footer{
+  position: fixed;
+  bottom: 1em;
+}
 .attribution { 
   font-size: 1rem; 
   text-align: center; 
-  padding-top: 3em;
 }
 .attribution a {
    color: hsl(228, 45%, 44%); 
